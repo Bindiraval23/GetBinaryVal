@@ -69,5 +69,10 @@ namespace GetBinaryNumber
             int max = numbers.Max();
             return max;
         }
+
+        static void doNothing()
+        {
+            //print nothing..
+        }
     }
 }
