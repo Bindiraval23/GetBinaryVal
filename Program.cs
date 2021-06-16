@@ -70,9 +70,5 @@ namespace GetBinaryNumber
             return max;
         }
 
-        static void doNothing()
-        {
-            //print nothing..
-        }
     }
 }
