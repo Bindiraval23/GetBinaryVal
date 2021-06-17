@@ -15,12 +15,12 @@ namespace GetBinaryNumber
             callMasterFun();
             while (Console.ReadKey().Key != ConsoleKey.Escape)
             {
+                Console.WriteLine("\n");
                 callMasterFun();
             }
         }
         static void callMasterFun()
         {
-            Console.WriteLine("\n");
             num = 0;
             binaryVal.Clear();
             getNumber(); // get number via user input
